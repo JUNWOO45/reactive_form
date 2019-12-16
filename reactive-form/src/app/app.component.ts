@@ -1,10 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {
-  FormGroup,
-  FormBuilder,
-  Validators,
-  ReactiveFormsModule
-} from '@angular/forms';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 
 declare var NgForm: any;
 @Component({
@@ -40,6 +35,6 @@ export class AppComponent implements OnInit {
       return;
     }
 
-    alert('form fields are validated succe3ssfully!!!!!');
+    alert('form fields are validated succe3ssfully!!!!!ng ');
   }
 }
