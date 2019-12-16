@@ -23,6 +23,8 @@ export class AppComponent implements OnInit {
       confirmPassword: ['', Validators.required],
       tnc: ['', Validators.required]
     });
+
+    console.log(this.fval);
   }
 
   get fval() {
@@ -30,6 +32,7 @@ export class AppComponent implements OnInit {
   }
 
   signup() {
+    console.log('clicked : ', this.fval);
     this.submitted = true;
     if (this.registerForm.invalid) {
       return;

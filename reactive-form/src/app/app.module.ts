@@ -6,7 +6,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ConfirmEqualValidatorDirective } from './confirm-equal-validator.directive';
 
 @NgModule({
-  declarations: [AppComponent, ConfirmEqualValidatorDirective],
+  declarations: [AppComponent],
   imports: [BrowserModule, ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent]
